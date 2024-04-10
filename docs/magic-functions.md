@@ -39,6 +39,7 @@ The good thing is that you can replace/create magic functions in order to give o
 | - | SUB |
 | * | MUL |
 | / | DIV |
+| ^ | POW |
 
 ### Let's build your first magic function
 By default FS doesn't support multiplication between a string and a number but we can give that operation a meaning.
