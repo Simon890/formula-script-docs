@@ -6,7 +6,7 @@ import hljs from "highlight.js";
 import "highlight.js/styles/default.min.css";
 
 export default function Demo() {
-
+    
     const [input, setInput] = useState("SUMRANGE(A1:J3)");
     const [output, setOutput] = useState<string | boolean | number>("");
     const highlightedRange = useRef(hljs.highlight(`i.current.setRangeHandler((left : string, right: string) => {
@@ -82,8 +82,8 @@ export default function Demo() {
             const result = [];
             for(let i = cell2index[colLeft]; i <= cell2index[colRight]; i++) {
                 for(let j = rowLeft - 1; j <= rowRight - 1; j++) {
-                const element = dataSource[j][i];
-                result.push(element);
+                    const element = dataSource[j][i];
+                    result.push(element);
                 }
             }
             return result;
@@ -111,7 +111,6 @@ export default function Demo() {
     useEffect(() => {
         try {
             const output = i.current.run(input);
-            console.log(output);
             if(output instanceof Date) {
                 setOutput(dayjs(output).format("DD/MM/YYYY"));
             } else if(typeof output == "boolean") {
