@@ -25,10 +25,15 @@ console.log(fs.run('8 <= 7')); //false
 console.log(fs.run('5 != 3')); //true
 console.log(fs.run('10 = 10')); //true
 ```
-- **Date**: Represents a date. You need to use the DATE function
+- **Date**: Represents a date. You can use the DATE function
 ```ts
 fs.run("DATE(2024, 05, 02)") // 2024-05-02 => year-month-day
 ```
+or a date literal
+```ts
+fs.run("2024/05/02") // 2024-05-02 => year-month-day
+```
+
 - **Range**: Represents a set of values.
 ```ts
 fs.run(`AVGRANGE(A1:B5)`);

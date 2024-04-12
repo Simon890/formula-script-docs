@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 3
 ---
 # Async Functions
 Formula-Script can handle asynchronous functions in case you want to create a function that performs async tasks.

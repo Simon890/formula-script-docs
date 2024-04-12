@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 # Built-in functions
 Here there's a list of functions that come with Formula-Script.

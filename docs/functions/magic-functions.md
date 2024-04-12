@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 2
 ---
 # Magic Functions
 Magic functions gives Formula-Script a lot of flexibility since it allows you to change the way mathematical-logical operations work.
