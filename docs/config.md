@@ -26,7 +26,7 @@ import { FormulaScript } from "formula-script"
 
 const fs = new FormulaScript();
 fs.registry.register("MYFUNCTION", {
-    exec() {
+    call() {
         //...
     }
 });
@@ -45,7 +45,7 @@ import { FormulaScript } from "formula-script"
 
 const fs = new FormulaScript();
 fs.registry.register("MyFunction", {
-    exec() {
+    call() {
         //...
     }
 });
